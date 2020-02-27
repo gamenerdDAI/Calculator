@@ -31,5 +31,17 @@ namespace Calculator
             textBlock.Text += btn.Content.ToString();
             //MessageBox.Show(btn.Content.ToString());
         }
+
+        private void ClearButton_Click(object sender, RoutedEventArgs e)
+        {
+            textBlock.Text = "";
+        }
+
+        private void EqualButton_Click(object sender, RoutedEventArgs e)
+        {
+            string expression = textBlock.Text;
+            textBlock.Text = "";
+            MessageBox.Show(expression);
+        }
     }
 }

@@ -25,7 +25,7 @@
         <Viewbox x:Name="vb" Grid.Row="0" Grid.ColumnSpan="4">
             <TextBlock x:Name="textBlock" Text="" Margin="2"/>
         </Viewbox>
-        <Button Content="C" Grid.Row="1" Grid.Column="0" FontSize="54" Click="Button_Click"/>
+        <Button Content="C" Grid.Row="1" Grid.Column="0" FontSize="54" Click="ClearButton_Click"/>
         <Button Content="(" Grid.Row="1" Grid.Column="1" FontSize="54" Click="Button_Click"/>
         <Button Content=")" Grid.Row="1" Grid.Column="2" FontSize="54" Click="Button_Click"/>
         <Button Content="÷" Grid.Row="1" Grid.Column="3" FontSize="54" Click="Button_Click"/>
@@ -44,6 +44,6 @@
         <Button x:Name="button0" Content="0" Grid.Row="5" Grid.Column="0" FontSize="54" Click="Button_Click"/>
         <Button x:Name="button00" Content="00" Grid.Row="5" Grid.Column="1" FontSize="54" Click="Button_Click"/>
         <Button Content="." Grid.Row="5" Grid.Column="2" FontSize="54" Click="Button_Click"/>
-        <Button Content="=" Grid.Row="5" Grid.Column="3" FontSize="54" Click="Button_Click"/>
+        <Button Content="=" Grid.Row="5" Grid.Column="3" FontSize="54" Click="EqualButton_Click"/>
     </Grid>
 </Window>
